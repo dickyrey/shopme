@@ -7,7 +7,7 @@ class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Shopme",
+      title: "BELKA",
       debugShowCheckedModeBanner: false,
       home: SplashPage(),
       initialRoute: "/",

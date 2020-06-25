@@ -55,7 +55,9 @@ class SignInPage extends StatelessWidget {
                 ),
                 SignInButton(
                   title: "LOGIN",
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushReplacementNamed(context, "/bottomnav");
+                  },
                 ),
                 NoAccountButton(
                   onPressed: () {

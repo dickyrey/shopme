@@ -31,7 +31,7 @@ class _SplashPageState extends State<SplashPage> {
     return Scaffold(
       body: BackgroundImage(
         child: Text(
-          "Shopme",
+          "BELKA",
           style: kProductStyle,
         ),
       ),

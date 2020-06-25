@@ -45,3 +45,17 @@ var kSuccessTitleStyle = GoogleFonts.roboto(
   color: kGreenColor,
   fontWeight: FontWeight.w700,
 );
+var kTitle13BoldStyle = GoogleFonts.roboto(
+  fontSize: 13.0,
+  color: kBlackColor,
+  fontWeight: FontWeight.w700,
+);
+var kTitle13LightStyle = GoogleFonts.roboto(
+  fontSize: 13.0,
+  color: kGreyColor,
+);
+var kTitle10BoldStyle = GoogleFonts.roboto(
+  fontSize: 10.0,
+  color: kBlackColor,
+  fontWeight: FontWeight.w700,
+);

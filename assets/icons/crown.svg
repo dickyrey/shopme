@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47" height="39" viewBox="0 0 47 39">
+  <g id="crown" transform="translate(-195 -427)">
+    <path id="Path_60" data-name="Path 60" d="M-2.172,27.409H-12.743l-5.7-15.19s7.918,5.221,9.107,5.221S.034,1.852.034,1.852,7.71,17.439,8.629,17.439s9.408-5.221,9.408-5.221l-5.5,15.19H-2.172" transform="translate(218.5 431.5)" fill="none" stroke="#000" stroke-width="3"/>
+    <g id="Ellipse_25" data-name="Ellipse 25" transform="translate(215 427)" stroke="#000" stroke-width="1">
+      <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+      <circle cx="3.5" cy="3.5" r="3" fill="none"/>
+    </g>
+    <g id="Ellipse_26" data-name="Ellipse 26" transform="translate(195 438)" stroke="#000" stroke-width="1">
+      <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+      <circle cx="3.5" cy="3.5" r="3" fill="none"/>
+    </g>
+    <g id="Ellipse_27" data-name="Ellipse 27" transform="translate(235 438)" stroke="#000" stroke-width="1">
+      <circle cx="3.5" cy="3.5" r="3.5" stroke="none"/>
+      <circle cx="3.5" cy="3.5" r="3" fill="none"/>
+    </g>
+    <g id="Rectangle_31" data-name="Rectangle 31" transform="translate(204 462)" stroke="#000" stroke-width="3">
+      <rect width="29" height="4" rx="2" stroke="none"/>
+      <rect x="1.5" y="1.5" width="26" height="1" rx="0.5" fill="none"/>
+    </g>
+  </g>
+</svg>
