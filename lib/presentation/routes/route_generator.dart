@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:shopme/infrastructure/models/product_model.dart';
+import 'package:shopme/infrastructure/models/store_model.dart';
 import 'package:shopme/presentation/bottom_nav/bottom_nav_index.dart';
 import 'package:shopme/presentation/on_boarding/on_boarding_page.dart';
+import 'package:shopme/presentation/product_detail/product_detail.dart';
 import 'package:shopme/presentation/splash/splash_page.dart';
 import 'package:shopme/presentation/sign_in/sign_in_page.dart';
 import 'package:shopme/presentation/sign_up/sign_up_page.dart';
 import 'package:shopme/presentation/reset_password/reset_password_view.dart';
 import 'package:shopme/presentation/reset_password/success_reset_password_view.dart';
+import 'package:shopme/presentation/store/store_detail.dart';
 
 class RouteGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {
@@ -27,6 +31,26 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) => SuccessResetPasswordPage());
       case '/bottomnav':
         return MaterialPageRoute(builder: (_) => BottomNavIndex());
+      case '/productdetail':
+        if (args is Product) {
+          return MaterialPageRoute(
+            builder: (context) => ProductDetail(
+              product: args,
+            ),
+          );
+        }
+        return _errorRoute();
+      case '/storedetail':
+        if (args is Store) {
+          return MaterialPageRoute(
+            builder: (context) => StoreDetail(
+              store: args,
+            ),
+          );
+        }
+
+        return _errorRoute();
+
       default:
         return _errorRoute();
     }

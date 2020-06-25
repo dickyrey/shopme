@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shopme/infrastructure/local_data/store_model.dart';
-import 'package:shopme/presentation/official_store/widgets/official_store_card.dart';
+import 'package:shopme/presentation/store/widgets/official_store_card.dart';
 import 'package:shopme/theme/colors.dart';
 import 'package:shopme/theme/style.dart';
 
@@ -35,7 +35,17 @@ class OfficialStore extends StatelessWidget {
           physics: BouncingScrollPhysics(),
           itemBuilder: (context, index) {
             var officialStore = officialStoreList[index];
-            return OfficialStoreCard(officialStore: officialStore);
+            return InkWell(
+              borderRadius: BorderRadius.circular(25.0),
+              onTap: () {
+                Navigator.pushNamed(
+                  context,
+                  "/storedetail",
+                  arguments: officialStore,
+                );
+              },
+              child: OfficialStoreCard(officialStore: officialStore),
+            );
           },
         ),
       ),

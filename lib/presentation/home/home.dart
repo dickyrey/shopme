@@ -6,7 +6,7 @@ import 'package:shopme/infrastructure/local_data/store_model.dart';
 import 'package:shopme/presentation/home/widgets/carousel_widget.dart';
 import 'package:shopme/presentation/home/widgets/category_card.dart';
 import 'package:shopme/presentation/home/widgets/custom_list_tile.dart';
-import 'package:shopme/presentation/home/widgets/official_store_card.dart';
+import 'package:shopme/presentation/home/widgets/official_store_circle.dart';
 import 'package:shopme/presentation/home/widgets/product_card.dart';
 import 'package:shopme/theme/colors.dart';
 import 'package:shopme/theme/style.dart';
@@ -18,15 +18,16 @@ class Home extends StatelessWidget {
       backgroundColor: kWhiteColor,
       appBar: AppBar(
         leading: Container(),
-        backgroundColor: kRedColor.withOpacity(.1),
+        backgroundColor: kWhiteColor.withOpacity(.1),
         elevation: 0.0,
         title: Text("BELKA", style: kTitle18BoldStyle),
         actions: <Widget>[
+          // SvgPicture.as
           IconButton(
             icon: Icon(Icons.search),
             color: kBlackColor,
             onPressed: () {},
-          )
+          ),
         ],
       ),
       body: Container(
@@ -49,7 +50,10 @@ class Home extends StatelessWidget {
                   itemBuilder: (context, index) {
                     var category = categoryList[index];
 
-                    return CategoryCard(category: category);
+                    return InkWell(
+                      onTap: () {},
+                      child: CategoryCard(category: category),
+                    );
                   },
                 ),
               ),
@@ -68,7 +72,14 @@ class Home extends StatelessWidget {
                     var product = productList[index];
                     return Padding(
                       padding: const EdgeInsets.only(left: 18.0, bottom: 12.0),
-                      child: ProductCard(product: product),
+                      child: InkWell(
+                        borderRadius: BorderRadius.circular(15.0),
+                        onTap: () {
+                          Navigator.pushNamed(context, "/productdetail",
+                              arguments: product);
+                        },
+                        child: ProductCard(product: product),
+                      ),
                     );
                   },
                 ),
@@ -86,7 +97,7 @@ class Home extends StatelessWidget {
                   shrinkWrap: true,
                   itemBuilder: (context, index) {
                     var store = officialStoreList[index];
-                    return OfficialStoreCard(store: store);
+                    return OfficialStoreCircle(store: store);
                   },
                 ),
               ),
@@ -141,7 +152,7 @@ class Home extends StatelessWidget {
                     // );
                   },
                 ),
-              )
+              ),
             ],
           ),
         ),

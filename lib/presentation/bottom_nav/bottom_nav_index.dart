@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:shopme/presentation/favorite/favorite.dart';
 import 'package:shopme/presentation/home/home.dart';
-import 'package:shopme/presentation/official_store/official_store.dart';
 import 'package:shopme/presentation/profile/profile.dart';
+import 'package:shopme/presentation/store/official_store.dart';
 import 'package:shopme/theme/colors.dart';
 import 'package:shopme/theme/style.dart';
 

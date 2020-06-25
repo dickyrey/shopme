@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:shopme/infrastructure/models/store_model.dart';
 import 'package:shopme/theme/style.dart';
 
-class OfficialStoreCard extends StatelessWidget {
+class OfficialStoreCircle extends StatelessWidget {
   final Store store;
-  OfficialStoreCard({this.store});
+  OfficialStoreCircle({this.store});
   @override
   Widget build(BuildContext context) {
     return Container(

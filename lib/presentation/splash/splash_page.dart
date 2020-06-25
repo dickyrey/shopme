@@ -1,9 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:shopme/presentation/splash/widgets/background_image.dart';
-import 'package:shopme/theme/colors.dart';
 import 'package:shopme/theme/style.dart';
 
 class SplashPage extends StatefulWidget {

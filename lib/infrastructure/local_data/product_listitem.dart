@@ -12,6 +12,8 @@ List<Product> productList = [
       false,
     ),
     price: "1.200.000",
+    description:
+        "aut dicta possimus sint mollitia voluptas commodi quo doloremque iste corrupti reiciendis voluptatem eius rerum sit cumque quod eligendi laborum minima perferendis recusandae assumenda consectetur porro architecto ipsum ipsam",
     image:
         "assets/images/a-bathing-ape_a-bathing-ape-bape-x-it-30th-anniversary-shark-full-zip-hoodie-jaket-pria_full05.jpg",
   ),
@@ -25,6 +27,8 @@ List<Product> productList = [
       true,
     ),
     price: "31.200.000",
+    description:
+        "aut dicta possimus sint mollitia voluptas commodi quo doloremque iste corrupti reiciendis voluptatem eius rerum sit cumque quod eligendi laborum minima perferendis recusandae assumenda consectetur porro architecto ipsum ipsam",
     image:
         "assets/images/05cbcw9cp4o0rqbcnvb2ofz-1fit-limsize-1280x720v-1584707541-1-35bb5677454115b1b29b0a0e7290f5da_600x400.jpg",
   ),
@@ -38,6 +42,8 @@ List<Product> productList = [
       true,
     ),
     price: "1.200.000",
+    description:
+        "aut dicta possimus sint mollitia voluptas commodi quo doloremque iste corrupti reiciendis voluptatem eius rerum sit cumque quod eligendi laborum minima perferendis recusandae assumenda consectetur porro architecto ipsum ipsam",
     image: "assets/images/bapehodie.jpg",
   ),
   Product(
@@ -50,6 +56,8 @@ List<Product> productList = [
       false,
     ),
     price: "3.200.000",
+    description:
+        "aut dicta possimus sint mollitia voluptas commodi quo doloremque iste corrupti reiciendis voluptatem eius rerum sit cumque quod eligendi laborum minima perferendis recusandae assumenda consectetur porro architecto ipsum ipsam",
     image: "assets/images/c288b272653632dba3a585858b80161c.jpg",
   ),
 ];
@@ -65,6 +73,8 @@ List<Product> trendList = [
       true,
     ),
     price: "1.200.000",
+    description:
+        "aut dicta possimus sint mollitia voluptas commodi quo doloremque iste corrupti reiciendis voluptatem eius rerum sit cumque quod eligendi laborum minima perferendis recusandae assumenda consectetur porro architecto ipsum ipsam",
     image: "assets/images/bapehodie.jpg",
   ),
   Product(
@@ -77,6 +87,8 @@ List<Product> trendList = [
       false,
     ),
     price: "3.200.000",
+    description:
+        "aut dicta possimus sint mollitia voluptas commodi quo doloremque iste corrupti reiciendis voluptatem eius rerum sit cumque quod eligendi laborum minima perferendis recusandae assumenda consectetur porro architecto ipsum ipsam",
     image: "assets/images/c288b272653632dba3a585858b80161c.jpg",
   ),
   Product(
@@ -89,6 +101,8 @@ List<Product> trendList = [
       true,
     ),
     price: "31.200.000",
+    description:
+        "aut dicta possimus sint mollitia voluptas commodi quo doloremque iste corrupti reiciendis voluptatem eius rerum sit cumque quod eligendi laborum minima perferendis recusandae assumenda consectetur porro architecto ipsum ipsam",
     image:
         "assets/images/05cbcw9cp4o0rqbcnvb2ofz-1fit-limsize-1280x720v-1584707541-1-35bb5677454115b1b29b0a0e7290f5da_600x400.jpg",
   ),

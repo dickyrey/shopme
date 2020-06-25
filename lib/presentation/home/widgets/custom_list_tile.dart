@@ -12,7 +12,16 @@ class CustomListTile extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
-          Text(title, style: kTitle18BoldStyle),
+          Expanded(
+            child: Text(
+              title,
+              style: kTitle18BoldStyle,
+              textAlign: TextAlign.left,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+            ),
+          ),
+          // SizedBox(width: 12.0),
           Text("Lihat semua", style: kTitle13LightStyle)
         ],
       ),

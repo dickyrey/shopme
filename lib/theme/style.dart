@@ -22,6 +22,12 @@ var kTitle18BoldStyle = GoogleFonts.roboto(
   fontWeight: FontWeight.bold,
   color: kBlackColor,
 );
+
+var kTitle18BoldRedStyle = GoogleFonts.roboto(
+  fontSize: 18.0,
+  fontWeight: FontWeight.bold,
+  color: kRedColor,
+);
 var kTitle18LightStyle = GoogleFonts.roboto(
   fontSize: 18.0,
   color: kBlackColor,
@@ -58,4 +64,8 @@ var kTitle10BoldStyle = GoogleFonts.roboto(
   fontSize: 10.0,
   color: kBlackColor,
   fontWeight: FontWeight.w700,
+);
+var kTitle10LightStyle = GoogleFonts.roboto(
+  fontSize: 10.0,
+  color: kBlackAccent,
 );
